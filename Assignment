@@ -1,0 +1,5 @@
+primes=[] 
+for i in range(2,201): 
+    if all(i%p for p in primes): 
+        print(i) 
+        primes.append(i
